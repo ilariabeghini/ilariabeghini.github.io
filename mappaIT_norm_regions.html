@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_90f511baf28b9dc1516b389aeebe1a9b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_90f511baf28b9dc1516b389aeebe1a9b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_90f511baf28b9dc1516b389aeebe1a9b = L.map(
+                "map_90f511baf28b9dc1516b389aeebe1a9b",
+                {
+                    center: [41.9028, 12.4964],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2332af0ea4099fd24b6160fee2001a0f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2332af0ea4099fd24b6160fee2001a0f.addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+            var circle_marker_2f873fa3b2dd158fda702342789bbffd = L.circleMarker(
+                [45.0677551, 7.6824892],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.953318697667456, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_018af8335c1364b60e3e634da8f0abd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a9990c89b4671fb4f87b4632044f35c = $(`<div id="html_7a9990c89b4671fb4f87b4632044f35c" style="width: 100.0%; height: 100.0%;">Piemonte - 0.7953318697667455 norm_cav</div>`)[0];
+                popup_018af8335c1364b60e3e634da8f0abd3.setContent(html_7a9990c89b4671fb4f87b4632044f35c);
+            
+        
+
+        circle_marker_2f873fa3b2dd158fda702342789bbffd.bindPopup(popup_018af8335c1364b60e3e634da8f0abd3)
+        ;
+
+        
+    
+    
+            var circle_marker_8b0fe53d9c9c29e56bc72748b0600f75 = L.circleMarker(
+                [45.7370885, 7.3196649],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.058732039100967, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_950941779d500a70fb8e27b4dffc7e9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2409dcf6b9d3a9de3e0de27f4011d898 = $(`<div id="html_2409dcf6b9d3a9de3e0de27f4011d898" style="width: 100.0%; height: 100.0%;">Valle d'Aosta - 0.8058732039100968 norm_cav</div>`)[0];
+                popup_950941779d500a70fb8e27b4dffc7e9d.setContent(html_2409dcf6b9d3a9de3e0de27f4011d898);
+            
+        
+
+        circle_marker_8b0fe53d9c9c29e56bc72748b0600f75.bindPopup(popup_950941779d500a70fb8e27b4dffc7e9d)
+        ;
+
+        
+    
+    
+            var circle_marker_b670fe3ab5f5b258a33bf12f5a1b13c8 = L.circleMarker(
+                [45.4641943, 9.1896346],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.313490464510837, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_bda13de48291fded8b4588afad3ca091 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b30449e61b6b160a2d1103966bb3fb11 = $(`<div id="html_b30449e61b6b160a2d1103966bb3fb11" style="width: 100.0%; height: 100.0%;">Lombardia - 0.7313490464510837 norm_cav</div>`)[0];
+                popup_bda13de48291fded8b4588afad3ca091.setContent(html_b30449e61b6b160a2d1103966bb3fb11);
+            
+        
+
+        circle_marker_b670fe3ab5f5b258a33bf12f5a1b13c8.bindPopup(popup_bda13de48291fded8b4588afad3ca091)
+        ;
+
+        
+    
+    
+            var circle_marker_2dccf119f5f331a4d6355cb5a977e11e = L.circleMarker(
+                [46.1029536, 11.12974249416882],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.642189330763418, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_2637aaf7cb1d7633e7339e42922af0db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fec8b8e047a71ba2e47eda3c125a3cf = $(`<div id="html_6fec8b8e047a71ba2e47eda3c125a3cf" style="width: 100.0%; height: 100.0%;">Trentino-Alto Adige - 0.46421893307634177 norm_cav</div>`)[0];
+                popup_2637aaf7cb1d7633e7339e42922af0db.setContent(html_6fec8b8e047a71ba2e47eda3c125a3cf);
+            
+        
+
+        circle_marker_2dccf119f5f331a4d6355cb5a977e11e.bindPopup(popup_2637aaf7cb1d7633e7339e42922af0db)
+        ;
+
+        
+    
+    
+            var circle_marker_bebad698496a038f356d61c6d106959c = L.circleMarker(
+                [45.4371908, 12.3345898],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.624531041124639, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_e44e44ad4958ad61325e97477109663f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16fc255d4e387f7fe4bbce99af65d806 = $(`<div id="html_16fc255d4e387f7fe4bbce99af65d806" style="width: 100.0%; height: 100.0%;">Veneto - 0.8624531041124639 norm_cav</div>`)[0];
+                popup_e44e44ad4958ad61325e97477109663f.setContent(html_16fc255d4e387f7fe4bbce99af65d806);
+            
+        
+
+        circle_marker_bebad698496a038f356d61c6d106959c.bindPopup(popup_e44e44ad4958ad61325e97477109663f)
+        ;
+
+        
+    
+    
+            var circle_marker_44a1321b181ca4c2fcb03b93521006fb = L.circleMarker(
+                [45.6496485, 13.7772781],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6582883205300005, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_87de6bae3b25f1a36d8382d9f8d9942a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f87ca6b1cf510d0ab275f6e2d84a5de7 = $(`<div id="html_f87ca6b1cf510d0ab275f6e2d84a5de7" style="width: 100.0%; height: 100.0%;">Friuli-Venezia Giulia - 0.665828832053 norm_cav</div>`)[0];
+                popup_87de6bae3b25f1a36d8382d9f8d9942a.setContent(html_f87ca6b1cf510d0ab275f6e2d84a5de7);
+            
+        
+
+        circle_marker_44a1321b181ca4c2fcb03b93521006fb.bindPopup(popup_87de6bae3b25f1a36d8382d9f8d9942a)
+        ;
+
+        
+    
+    
+            var circle_marker_8d2381eb00449772d966eefdb23f3d19 = L.circleMarker(
+                [44.40726, 8.9338624],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.561108202529478, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_1d8b6d6b2daf7ec00e6ac7464b824bd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03f9a051051f957d89fad50a3d247fa4 = $(`<div id="html_03f9a051051f957d89fad50a3d247fa4" style="width: 100.0%; height: 100.0%;">Liguria - 0.8561108202529478 norm_cav</div>`)[0];
+                popup_1d8b6d6b2daf7ec00e6ac7464b824bd7.setContent(html_03f9a051051f957d89fad50a3d247fa4);
+            
+        
+
+        circle_marker_8d2381eb00449772d966eefdb23f3d19.bindPopup(popup_1d8b6d6b2daf7ec00e6ac7464b824bd7)
+        ;
+
+        
+    
+    
+            var circle_marker_64e85d05f5a0017488291b7386e2f63d = L.circleMarker(
+                [44.4938203, 11.3426327],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.357204212319983, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_2462857842aa1c74e2fa965d8b5ad086 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d234e541db2b30c279cc3c5c37bc88d = $(`<div id="html_3d234e541db2b30c279cc3c5c37bc88d" style="width: 100.0%; height: 100.0%;">Emilia-Romagna - 1.0357204212319984 norm_cav</div>`)[0];
+                popup_2462857842aa1c74e2fa965d8b5ad086.setContent(html_3d234e541db2b30c279cc3c5c37bc88d);
+            
+        
+
+        circle_marker_64e85d05f5a0017488291b7386e2f63d.bindPopup(popup_2462857842aa1c74e2fa965d8b5ad086)
+        ;
+
+        
+    
+    
+            var circle_marker_d5303acbe54e983b3b1ef001c384ba01 = L.circleMarker(
+                [43.7697955, 11.2556404],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.311396436100425, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_5814ae6f5ecb91e6b726861d15b609ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_659357117c1cafd6d76aaee7f85e7fb3 = $(`<div id="html_659357117c1cafd6d76aaee7f85e7fb3" style="width: 100.0%; height: 100.0%;">Toscana - 0.7311396436100426 norm_cav</div>`)[0];
+                popup_5814ae6f5ecb91e6b726861d15b609ab.setContent(html_659357117c1cafd6d76aaee7f85e7fb3);
+            
+        
+
+        circle_marker_d5303acbe54e983b3b1ef001c384ba01.bindPopup(popup_5814ae6f5ecb91e6b726861d15b609ab)
+        ;
+
+        
+    
+    
+            var circle_marker_394ddedf106cb507707d93f6b202c7a5 = L.circleMarker(
+                [43.1070321, 12.402996209906489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.86558699962563, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_6c34fd076ea9351f628e41ba7c03b00f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_577158749aec8e17faf5d9fcffe991ba = $(`<div id="html_577158749aec8e17faf5d9fcffe991ba" style="width: 100.0%; height: 100.0%;">Umbria - 1.386558699962563 norm_cav</div>`)[0];
+                popup_6c34fd076ea9351f628e41ba7c03b00f.setContent(html_577158749aec8e17faf5d9fcffe991ba);
+            
+        
+
+        circle_marker_394ddedf106cb507707d93f6b202c7a5.bindPopup(popup_6c34fd076ea9351f628e41ba7c03b00f)
+        ;
+
+        
+    
+    
+            var circle_marker_c92eca540514c7cc1c04b1a07f7b1581 = L.circleMarker(
+                [43.4801189, 13.218727943815642],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.022355631025125, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_abc2bbe7eb9b405f9bde572e42b08a59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb8d6f00486a005878fbef96aecf90a5 = $(`<div id="html_fb8d6f00486a005878fbef96aecf90a5" style="width: 100.0%; height: 100.0%;">Marche - 0.8022355631025124 norm_cav</div>`)[0];
+                popup_abc2bbe7eb9b405f9bde572e42b08a59.setContent(html_fb8d6f00486a005878fbef96aecf90a5);
+            
+        
+
+        circle_marker_c92eca540514c7cc1c04b1a07f7b1581.bindPopup(popup_abc2bbe7eb9b405f9bde572e42b08a59)
+        ;
+
+        
+    
+    
+            var circle_marker_d6040e1d63a9c86bfba8799cc145003f = L.circleMarker(
+                [41.8933203, 12.4829321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.470475092572087, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_430514e4fcda07b8f2bc130a433fe778 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9e1d0ff5a52dc2703542ee9abe37388 = $(`<div id="html_d9e1d0ff5a52dc2703542ee9abe37388" style="width: 100.0%; height: 100.0%;">Lazio - 1.0470475092572087 norm_cav</div>`)[0];
+                popup_430514e4fcda07b8f2bc130a433fe778.setContent(html_d9e1d0ff5a52dc2703542ee9abe37388);
+            
+        
+
+        circle_marker_d6040e1d63a9c86bfba8799cc145003f.bindPopup(popup_430514e4fcda07b8f2bc130a433fe778)
+        ;
+
+        
+    
+    
+            var circle_marker_2bd2703c01f738c6bbd8ac2bc7b548a6 = L.circleMarker(
+                [42.1368853, 13.610341022538911],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.173921868023093, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_e68af2841aab60aca094a607872c4ddc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71ef913f3f8e45e4d81edbe6aee3294d = $(`<div id="html_71ef913f3f8e45e4d81edbe6aee3294d" style="width: 100.0%; height: 100.0%;">Abruzzo - 1.7173921868023094 norm_cav</div>`)[0];
+                popup_e68af2841aab60aca094a607872c4ddc.setContent(html_71ef913f3f8e45e4d81edbe6aee3294d);
+            
+        
+
+        circle_marker_2bd2703c01f738c6bbd8ac2bc7b548a6.bindPopup(popup_e68af2841aab60aca094a607872c4ddc)
+        ;
+
+        
+    
+    
+            var circle_marker_cba5866be0102994d725826600e4eb5c = L.circleMarker(
+                [41.7172648, 14.82622669782002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.591850326544204, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_7b3839cf82aec8bf1d6e7872339c780d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aca3ab9d0df6aed731e66debf1a48b66 = $(`<div id="html_aca3ab9d0df6aed731e66debf1a48b66" style="width: 100.0%; height: 100.0%;">Molise - 1.3591850326544204 norm_cav</div>`)[0];
+                popup_7b3839cf82aec8bf1d6e7872339c780d.setContent(html_aca3ab9d0df6aed731e66debf1a48b66);
+            
+        
+
+        circle_marker_cba5866be0102994d725826600e4eb5c.bindPopup(popup_7b3839cf82aec8bf1d6e7872339c780d)
+        ;
+
+        
+    
+    
+            var circle_marker_38524690cf3e8ccc015889f2a7578212 = L.circleMarker(
+                [40.8358846, 14.2487679],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.49132152496506, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_044d89700c89ccaa868fa371f262f0c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25bb00484b0a242737717ba3b283941e = $(`<div id="html_25bb00484b0a242737717ba3b283941e" style="width: 100.0%; height: 100.0%;">Campania - 1.849132152496506 norm_cav</div>`)[0];
+                popup_044d89700c89ccaa868fa371f262f0c0.setContent(html_25bb00484b0a242737717ba3b283941e);
+            
+        
+
+        circle_marker_38524690cf3e8ccc015889f2a7578212.bindPopup(popup_044d89700c89ccaa868fa371f262f0c0)
+        ;
+
+        
+    
+    
+            var circle_marker_7c91d8bdd27859bf235dade5b8910b81 = L.circleMarker(
+                [41.1257843, 16.8620293],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.25251685593769, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_7c277d1ff79e20bc2d735ec7d6b4fe63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61b4533393885cbe0e09ef7349e38094 = $(`<div id="html_61b4533393885cbe0e09ef7349e38094" style="width: 100.0%; height: 100.0%;">Puglia - 1.525251685593769 norm_cav</div>`)[0];
+                popup_7c277d1ff79e20bc2d735ec7d6b4fe63.setContent(html_61b4533393885cbe0e09ef7349e38094);
+            
+        
+
+        circle_marker_7c91d8bdd27859bf235dade5b8910b81.bindPopup(popup_7c277d1ff79e20bc2d735ec7d6b4fe63)
+        ;
+
+        
+    
+    
+            var circle_marker_1a1c86d766f03a49f6fe82bd461302d8 = L.circleMarker(
+                [40.51731195, 15.821608824871046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.013097793186947, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_490e26de8afe6b0dc3d6b0e17fe3168d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d84dc2e42bf49a5a0896dfa8433299e = $(`<div id="html_4d84dc2e42bf49a5a0896dfa8433299e" style="width: 100.0%; height: 100.0%;">Basilicata - 2.2013097793186946 norm_cav</div>`)[0];
+                popup_490e26de8afe6b0dc3d6b0e17fe3168d.setContent(html_4d84dc2e42bf49a5a0896dfa8433299e);
+            
+        
+
+        circle_marker_1a1c86d766f03a49f6fe82bd461302d8.bindPopup(popup_490e26de8afe6b0dc3d6b0e17fe3168d)
+        ;
+
+        
+    
+    
+            var circle_marker_09433fefe785083918373280f835bcc3 = L.circleMarker(
+                [38.82996034999999, 16.43155687627833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.9869896877406825, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_fd70c6b84051c03a66ac838bada163ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3c87fbb903a17ec3ed021fcce9ebf8f = $(`<div id="html_e3c87fbb903a17ec3ed021fcce9ebf8f" style="width: 100.0%; height: 100.0%;">Calabria - 0.6986989687740682 norm_cav</div>`)[0];
+                popup_fd70c6b84051c03a66ac838bada163ed.setContent(html_e3c87fbb903a17ec3ed021fcce9ebf8f);
+            
+        
+
+        circle_marker_09433fefe785083918373280f835bcc3.bindPopup(popup_fd70c6b84051c03a66ac838bada163ed)
+        ;
+
+        
+    
+    
+            var circle_marker_5909a71ae0f888dfe9a124c4b6700676 = L.circleMarker(
+                [38.1112268, 13.3524434],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.06834508932589, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_17302075b9e452e548beb96a80c3403c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60f5bbf29a0d81a6e921623521b65a38 = $(`<div id="html_60f5bbf29a0d81a6e921623521b65a38" style="width: 100.0%; height: 100.0%;">Sicilia - 0.8068345089325889 norm_cav</div>`)[0];
+                popup_17302075b9e452e548beb96a80c3403c.setContent(html_60f5bbf29a0d81a6e921623521b65a38);
+            
+        
+
+        circle_marker_5909a71ae0f888dfe9a124c4b6700676.bindPopup(popup_17302075b9e452e548beb96a80c3403c)
+        ;
+
+        
+    
+    
+            var circle_marker_e2f2b272e0a0d8c3f40f3e1f2842fe36 = L.circleMarker(
+                [39.2171994, 9.113311],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.320441446903356, "stroke": true, "weight": 3}
+            ).addTo(map_90f511baf28b9dc1516b389aeebe1a9b);
+        
+    
+        var popup_9401354d1f5faacafd5fa7623f32b8ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4addf38cbecbf6c1502305f6bf37d5c2 = $(`<div id="html_4addf38cbecbf6c1502305f6bf37d5c2" style="width: 100.0%; height: 100.0%;">Sardegna - 1.1320441446903355 norm_cav</div>`)[0];
+                popup_9401354d1f5faacafd5fa7623f32b8ed.setContent(html_4addf38cbecbf6c1502305f6bf37d5c2);
+            
+        
+
+        circle_marker_e2f2b272e0a0d8c3f40f3e1f2842fe36.bindPopup(popup_9401354d1f5faacafd5fa7623f32b8ed)
+        ;
+
+        
+    
+</script>
+</html>
